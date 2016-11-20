@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="BlackPlayOffer">#232323</color>
+    <color name="redPlayOffers" >#b50000</color>
+    <color name="greyPlayOffers">#c0c0c0</color>
+    <color name="LightgreyPlayOffers">#F5F5F5</color>
+    <color name="DarkGreyPlayOffers">#424242</color>
+    <color name="TransparentDarkGreyPlayOffers">#9a424242</color>
+</resources>

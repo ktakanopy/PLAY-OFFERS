@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_init"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.kvenixcs.play_offers.InitActivity"
+    android:background="@color/BlackPlayOffer"
+ >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/white_button"
+        android:layout_marginTop="95dp"
+        android:weightSum="10"
+      >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BEM VINDO AO PLAY-OFFERS"
+            android:id="@+id/TittleInittextView"
+            android:paddingTop="25dp"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/DarkGreyPlayOffers"
+            android:layout_weight="2"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AQUI VOCÊ SABERÁ DE TODAS AS OFERTAS DE SUA CIDADE!"
+
+            android:id="@+id/ContentInit1textView"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAlignment="gravity"
+            android:drawableLeft="@drawable/ic_check_black_48dp"
+            android:layout_weight="2"
+
+            android:drawableTint="@color/DarkGreyPlayOffers"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            />
+
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DEFINA SUAS PREFERÊNCIAS E RECEBA O QUE FOR DE INTERESSE PARA VOCÊ!"
+
+        android:id="@+id/ContentInit2textView"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textAlignment="inherit"
+        android:drawableLeft="@drawable/ic_check_black_48dp"
+        android:drawableTint="@color/DarkGreyPlayOffers"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+            android:layout_weight="2"
+        />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AVALIE E FAVORITE SUAS PRINCIPAIS OFERTAS"
+        android:id="@+id/ContentInit3textView"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textAlignment="inherit"
+        android:drawableLeft="@drawable/ic_check_black_48dp"
+        android:drawableTint="@color/DarkGreyPlayOffers"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:layout_weight="2"
+
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RECEBA CUPONS PROMOCIONAIS DE LOJAS ASSOCIADAS!"
+
+            android:id="@+id/ContentInit4textView"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAlignment="inherit"
+            android:drawableLeft="@drawable/ic_check_black_48dp"
+            android:drawableTint="@color/DarkGreyPlayOffers"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:layout_weight="2"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/red_button"
+            android:layout_margin="16dp"
+            android:text="PRÓXIMO"
+            android:textColor="@android:color/white"
+
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:scaleY="1.0"
+
+
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="125dp"
+        android:src="@drawable/logo"
+        android:id="@+id/Logo2imageView"
+        android:scaleType="fitXY"
+        android:scaleY="1"
+        android:scaleX="1"
+        android:adjustViewBounds="true"
+
+        />
+
+
+</RelativeLayout>

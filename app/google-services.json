@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "273527348172",
+    "firebase_url": "https://play-offers.firebaseio.com",
+    "project_id": "play-offers",
+    "storage_bucket": "play-offers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273527348172:android:f8710518426e109e",
+        "android_client_info": {
+          "package_name": "com.kvenixcs.play_offers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273527348172-qsci7uvhhhse86h9beuus3vhifskqmdq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp8IWWV5RS8CjA-0bRIURu6o1UYbbVzKA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
