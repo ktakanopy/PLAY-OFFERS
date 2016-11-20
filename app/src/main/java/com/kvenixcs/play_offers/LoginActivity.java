@@ -6,6 +6,7 @@ import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -61,13 +62,12 @@ public class LoginActivity extends AppCompatActivity {
         };
     }
 
-    void onClickLogin()
+    void onClickLogin(View view)
     {
         final Intent intent = new Intent(this,MainActivity.class);
         progressDialog = new ProgressDialog(this);
         //progressDoalog.setMax(100);
         progressDialog.setMessage("Carregando ...");
-        progressDialog.setTitle("PLAY-OFFers:: Mensagem");
         progressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
         progressDialog.show();
 
