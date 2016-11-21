@@ -1,8 +1,16 @@
-<shape xmlns:android="http://schemas.android.com/apk/res/android"
-    android:shape="rectangle"
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/pattern" android:alpha="0.3" />
 
-    >
-    <solid
-        android:color="@color/TransparentDarkGreyPlayOffers"
-        />
-</shape>
+    <item>
+        <shape android:shape="rectangle" android:padding="10dp" >
+            <corners
+                android:bottomRightRadius="5dp"
+                android:bottomLeftRadius="5dp"
+                android:topLeftRadius="5dp"
+                android:topRightRadius="5dp"/>
+
+        </shape>
+    </item>
+
+</layer-list>

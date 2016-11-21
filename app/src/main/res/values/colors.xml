@@ -8,5 +8,5 @@
     <color name="greyPlayOffers">#c0c0c0</color>
     <color name="LightgreyPlayOffers">#F5F5F5</color>
     <color name="DarkGreyPlayOffers">#424242</color>
-    <color name="TransparentDarkGreyPlayOffers">#9a424242</color>
+    <color name="TransparentDarkGreyPlayOffers">#b2545454</color>
 </resources>

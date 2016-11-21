@@ -23,6 +23,7 @@
             />
         <activity android:name=".FiltroActivity" />
         <activity android:name=".InitActivity" />
+
     </application>
 
 </manifest>
